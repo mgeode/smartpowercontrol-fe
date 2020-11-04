@@ -1,0 +1,76 @@
+{
+  "LOG_LEVEL": "INFO",
+  "HTTP_HOST": "smarty",
+  "HTTP_PORT": "5055",
+  "URL_BASE": "",
+  "TITLE": "SmartReceptacleControl",
+  "SENDER_HOMECODE": "11100",
+  "SENDER433_BIN": "/opt/smarthome/433send/raspberry-remote/send",
+  "SENDERUSB_BIN": "/usr/bin/sispmctl",
+  "REMOTE_POWER": [
+    {
+      "id": "2",
+      "name": "none",
+      "rack": "2",
+      "type": "433",
+      "state": false,
+      "date": "30.10.2016 09:15:21",
+      "disabled": false
+    },
+    {
+      "id": "1",
+      "name": "TÃ¼r-Verteiler",
+      "rack": "1",
+      "type": "433",
+      "state": true,
+      "date": "01.11.2016 11:47:59",
+      "disabled": false
+    },
+    {
+      "id": "3",
+      "name": "Stehlampe",
+      "rack": "3",
+      "type": "433",
+      "state": true,
+      "date": "30.10.2016 09:19:31",
+      "disabled": false
+    },
+    {
+      "id": "u1",
+      "name": "TV",
+      "rack": "1",
+      "type": "usb",
+      "state": true,
+      "date": "30.10.2016 09:16:58",
+      "disabled": false
+    },
+    {
+      "id": "u3",
+      "name": "AppleTV",
+      "rack": "3",
+      "type": "usb",
+      "state": false,
+      "date": "30.10.2016 09:17:22",
+      "disabled": false
+    },
+    {
+      "id": "u2",
+      "name": "HDReceiver",
+      "rack": "2",
+      "type": "usb",
+      "state": true,
+      "date": "30.10.2016 09:17:19",
+      "disabled": false
+    },
+    {
+      "id": "u4",
+      "name": "Bassbox",
+      "rack": "4",
+      "type": "usb",
+      "state": true,
+      "date": "30.10.2016 09:35:53",
+      "disabled": false
+    }
+  ],
+  "DEV_MODE": false
+}

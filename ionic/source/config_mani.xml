@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.ionicframework.mgeohomeapp369790" version="0.0.21" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>mgeoHomeApp</name>
+  <description>
+    Powercontrol
+  </description>
+  <author email="me@mgeo.de" href="http://mgeo.de/">
+    Michael Eichinger
+  </author>
+  <content src="index.html"/>
+  <access origin="*"/>
+  <platform name="android">
+  </platform>
+  <platform name="ios">
+  </platform>
+  <icon src="resources/android/icon/drawable-xhdpi-icon.png"/>
+  <preference name="SplashScreen" value="screen"/>
+  <preference name="AutoHideSplashScreen" value="true"/>
+  <preference name="SplashScreenDelay" value="5000"/>
+  <feature name="SplashScreen">
+    <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen"/>
+    <param name="onload" value="true"/>
+  </feature>
+</widget>

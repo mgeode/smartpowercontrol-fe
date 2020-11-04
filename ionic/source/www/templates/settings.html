@@ -1,0 +1,27 @@
+<ion-view view-title="Settings">
+    <ion-content>
+        <div ng-controller="FormCtrl">
+            <div class="list">
+                <div class="item item-divider item-assertive">
+                    Remote-Server
+                </div>
+                <form novalidate class="simple-form">
+                <label class="item item-input item-stacked-label">
+                    <span class="input-label">URL</span>
+                    <!-- placeholder="http://server:port/rest_path" -->
+                        <input type="text" ng-model="url" placeholder="http://server:port/rest_path">
+                </label>
+
+                <div class="item">
+                    <button class="button button-full button-positive" ng-click="saveData(url)" type="submit">speichern</button>
+                </div>
+
+                    <div class="copyright">
+                        copyright <a href="http://mgeo.de">mgeo.de</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
+

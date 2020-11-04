@@ -1,0 +1,27 @@
+/* Empty. Add your own CSS if you like */
+
+ion-item:hover {
+    color: #646464;
+    font-weight: bold;
+}
+
+.copyright {
+    padding: 1em;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-size: 0.7em;
+}
+
+
+.copyright a {
+    text-decoration: none;
+}
+
+
+
+/*
+.title.title-center.header-item {
+    background-color: black;
+    margin: 0px;padding:0px; width:100%;
+}
+*/
